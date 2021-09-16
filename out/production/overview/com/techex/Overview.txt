@@ -1,0 +1,15 @@
+Class Overview
+- The core value of a software developer is business and team contribution
+- The class will focus on contribution and not letter or number grades
+- The class comprises 5 GitHub projects (keyfair, data-structures-algorithms, interviews, overview, and a personal project).
+- We will cover the core topics from the original syllabus, but your growth in the class is driven by contribution to the projects.
+- Success is binary. Attend class, contribute to the projects, and you will succeed.
+
+Repos
+- (Base) https://github.com/ISwindle?tab=repositories
+- https://github.com/ISwindle/interviews
+- https://github.com/ISwindle/data-structures-algorithms
+- https://github.com/ISwindle/keyfair
+
+Personal Project Repos //TODO
+-
