@@ -20,16 +20,36 @@ public class ArrayListImpl {
     }
 
     //Create Constructor that Converts an Array to ArrayList
+    public ArrayListImpl(String[] array) {
+        for (int i = 0; i < array.length ;i++) {
+            this.arrayListImpl.add(array[i]);
+        }
+    }
 
     public int size() {
         return this.arrayListImpl.size();
     }
 
-    // Return Value at Index
-
     // Return if value is in ArrayList
+    public int returnIndex(String value) {
 
-    // Determine if empty by method
+        for(int i = 0; i < arrayListImpl.size(); i++) {
+            if (value == arrayListImpl.get(i)) {
+                return i;
+            }
+        }
 
-    // Determine if empty by comparison
+        return -1;
+    }
+
+    // Return Value at Index
+    public String returnValue(int index) {
+
+        if (index >= this.arrayListImpl.size()) {
+            return "Index is out of bounds";    // Return Exception
+        }
+
+        return arrayListImpl.get(index);
+
+    }
 }
